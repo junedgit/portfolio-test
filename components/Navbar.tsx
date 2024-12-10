@@ -10,7 +10,7 @@ import User from "./icons/user";
 import Link from "next/link";
 import localFont from "next/font/local";
 
-const tiny5 = localFont({
+const tiny7 = localFont({
   src: "../app/fonts/Tiny5-Regular.ttf",
   variable: "--font-tiny",
 });
@@ -48,7 +48,7 @@ const Navbar = () => {
         className="bg-slate-400-200 md:mx-28  mx-20  mt-8 flex justify-between bg-violet-200/10 backdrop-blur-lg py-1 rounded-2xl"
       >
         <h1
-          className={`inline-block text-4xl ${tiny5.className} font-mono text-slate-300/60  pl-6 py-1`}
+          className={`inline-block text-4xl ${tiny7.className} font-mono text-slate-300/60  pl-6 py-1`}
         >
           JUNED
         </h1>
