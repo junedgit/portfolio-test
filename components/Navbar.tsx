@@ -3,17 +3,16 @@
 import gsap from "gsap";
 
 import React, { useEffect, useRef } from "react";
-import { Tiny5 } from "next/font/google";
 import Menu from "./icons/menu";
 import Book from "./icons/book";
 import Projects from "./icons/projects";
 import User from "./icons/user";
 import Link from "next/link";
+import localFont from "next/font/local";
 
-const tiny5 = Tiny5({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
+const tiny5 = localFont({
+  src: "../app/fonts/Tiny5-Regular.ttf",
+  variable: "--font-tiny",
 });
 
 const Navbar = () => {
