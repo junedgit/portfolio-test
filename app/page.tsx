@@ -9,6 +9,7 @@ export default function Home() {
       <div className=" relative top-0 left-0 h-dvh w-screen overflow-x-hidden">
         <video
           src={"video-hero.mp4"}
+          autoPlay
           loop
           muted
           className=" z-10 fixed left-0 top-0 size-full object-cover object-center  "
